@@ -1,0 +1,90 @@
+html, body {
+   margin: 0px;
+   padding: 0px;
+   overflow-x: hidden;
+}
+
+body {
+   font-family: "Open Sans", sans-serif;
+   font-size: 15px;
+}
+
+h1, h2, h3, h4, h5 {
+   font-family: 'Sriracha', cursive;
+}
+
+footer, .navbar, .covid-box, .my-dark-bg {
+   color: rgb(222,222,222);
+   background-color: rgb(25,35,45);
+}
+
+.home-text-lrg {
+   font-size: 1.1em;
+}
+
+.btn-orange, .header-orange {
+   color: #FFF;
+   background: rgb(255,120,0);
+}
+
+.input-group-text {
+   width: 40px;
+}
+
+#page-top { 
+   background: #000;
+   color: #FFF;
+   font-family: 'Sriracha', cursive;
+} 
+#page-top .products { 
+   display: flex; 
+   padding: 1em; 
+   overflow: hidden; 
+}
+
+#page-top .products img { 
+   display: block; 
+   height: auto;
+   max-height: 300px; 
+   width: 100%; 
+   object-fit: cover; 
+} 
+#page-top .products div { 
+   padding: 0 25% 0 5%;
+   text-align: center;
+   font-size: 3vw;
+   text-shadow: #000 0px 0px 3px;
+   border-top: 2px solid transparent; 
+   background: rgb(255,120,0);
+   background: linear-gradient(120deg, rgba(255,125,0,1) 11%, rgba(150,100,75,1) 48%, rgba(255,125,0,1) 88%);
+   background-clip: padding-box; 
+} 
+#page-top .products strong { 
+   display: block; 
+   font-weight: 900; 
+}
+
+
+#page-top .products li { 
+   width: 38.5%; 
+   margin-right: -7.5%; 
+   list-style-type: none;
+   -webkit-clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%); 
+   clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%); 
+}
+
+
+.highlight {
+   padding: 5px;
+   background: rgb(255,120,0);
+   border-radius: 7px;
+}
+
+.carousel-caption {
+   border-radius: 10px 10px 5px 5px;
+   background: rgba(33,33,33,0.55);
+}
+
+footer {
+   padding: 15px;
+}
