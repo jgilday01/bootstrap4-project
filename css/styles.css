@@ -18,8 +18,12 @@ footer, .navbar, .covid-box, .my-dark-bg {
    background-color: rgb(25,35,45);
 }
 
+.main-page {
+   min-height: 750px;
+}
+
 .home-text-lrg {
-   font-size: 1.1em;
+   font-size: 1.2em
 }
 
 .btn-orange, .header-orange {
@@ -31,6 +35,7 @@ footer, .navbar, .covid-box, .my-dark-bg {
    width: 40px;
 }
 
+
 #page-top { 
    background: #000;
    color: #FFF;
@@ -38,19 +43,20 @@ footer, .navbar, .covid-box, .my-dark-bg {
 } 
 #page-top .products { 
    display: flex; 
-   padding: 1em; 
    overflow: hidden; 
+   padding: 1% 0 1% 3.5%;
 }
 
 #page-top .products img { 
    display: block; 
    height: auto;
-   max-height: 300px; 
+   max-height: 500px; 
    width: 100%; 
    object-fit: cover; 
 } 
 #page-top .products div { 
-   padding: 0 25% 0 5%;
+   /*padding: 0 25% 0 5%;*/
+   margin-top: 1%;
    text-align: center;
    font-size: 39px;
    font-size: 3.7vw;
@@ -58,20 +64,18 @@ footer, .navbar, .covid-box, .my-dark-bg {
    border-top: 2px solid transparent; 
    background: rgb(255,120,0);
    background: linear-gradient(121deg, rgba(150,100,75,1) 5%, rgba(250,125,0,1) 45%, rgba(150,100,75,1) 90%);
-   background-clip: padding-box; 
 } 
 #page-top .products strong { 
    display: block; 
    font-weight: 900; 
 }
 
-
 #page-top .products li { 
-   width: 38.5%; 
-   margin-right: -7.5%; 
    list-style-type: none;
-   -webkit-clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%); 
-   clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%); 
+   width: 30%;
+   margin: 1%;
+   -ms-transform: skewx(20deg);
+   transform: skewx(10deg);
 }
 
 
@@ -86,6 +90,43 @@ footer, .navbar, .covid-box, .my-dark-bg {
    background: rgba(33,33,33,0.55);
 }
 
+#accordion .card-header {
+   background: rgb(255,120,0);
+}
+
+#accordion button {
+   width: 100%;
+   color: #EEE;
+   box-shadow: none;
+   text-decoration: none;
+}
+
+#accordion button:not(.collapsed) {
+   box-shadow: none;
+   color:rgb(25,35,45);;
+}
+
+#accordion .card-body {
+   background-color: #DDD;
+}
+
+.menu-image {
+   width: 100%;
+   max-width: 300px;
+   margin: 20px auto;
+   border-radius: 50%;
+   border: 3px solid rgb(255,120,0);
+   -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.5);
+   -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.5);
+   box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
 footer {
    padding: 15px;
+}
+
+.up-wrap {
+   font-size: 30px;
+   color: rgb(255,120,0);
+   line-height: 1;
 }
