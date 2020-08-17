@@ -9,13 +9,24 @@ body {
    font-size: 16px;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, .navbar-brand {
    font-family: 'Sriracha', cursive;
+}
+
+.navbar-brand.customized {
+   font-size: 35px;
+}
+
+.navbar-brand.customized:hover {
+   color: rgb(255,120,0);
+   -webkit-text-stroke: 1px #FFF;
+   -webkit-font-smoothing: antialiased;
 }
 
 footer, .navbar, .covid-box, .my-dark-bg {
    color: rgb(222,222,222);
    background-color: rgb(25,35,45);
+   border: 1px solid #AAA;
 }
 
 .main-page {
@@ -54,6 +65,7 @@ footer, .navbar, .covid-box, .my-dark-bg {
    width: 100%; 
    object-fit: cover; 
 } 
+
 #page-top .products div { 
    /*padding: 0 25% 0 5%;*/
    margin-top: 1%;
@@ -65,6 +77,7 @@ footer, .navbar, .covid-box, .my-dark-bg {
    background: rgb(255,120,0);
    background: linear-gradient(121deg, rgba(150,100,75,1) 5%, rgba(250,125,0,1) 45%, rgba(150,100,75,1) 90%);
 } 
+
 #page-top .products strong { 
    display: block; 
    font-weight: 900; 
@@ -97,6 +110,8 @@ footer, .navbar, .covid-box, .my-dark-bg {
 #accordion button {
    width: 100%;
    color: #EEE;
+   line-height: 1;
+   padding: 10px 5px;
    box-shadow: none;
    text-decoration: none;
 }
@@ -118,7 +133,7 @@ footer, .navbar, .covid-box, .my-dark-bg {
    border: 3px solid rgb(255,120,0);
    -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.5);
    -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.5);
-   box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+   box-shadow: 0px 12px 7px 3px rgba(0,0,0,0.75);
 }
 
 footer {
