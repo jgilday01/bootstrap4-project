@@ -14,24 +14,25 @@ h1, h2, h3, h4, h5, .navbar-brand {
 }
 
 input, textarea {
-   margin:10px;
+   margin:10px auto;
    padding: 10px;
    width: 100%;
-   font-size: 25px;
+   font-size: 22px;
    background: #EEE;
    border-radius: 7px;
    border: 2px solid rgb(255,120,0);
-   color: rgb(255,120,0);
+   color: rgb(25,35,45);
 }
 
 .navbar-brand.customized {
-   font-size: 35px;
+   font-size: 33px;
+   -webkit-text-stroke: 1px #FFF;
+   -webkit-font-smoothing: antialiased;
+   transition: color linear 0.5s;
 }
 
 .navbar-brand.customized:hover {
    color: rgb(255,120,0);
-   -webkit-text-stroke: 1px #FFF;
-   -webkit-font-smoothing: antialiased;
 }
 
 footer, .navbar, .covid-box, .my-dark-bg {
