@@ -13,6 +13,17 @@ h1, h2, h3, h4, h5, .navbar-brand {
    font-family: 'Sriracha', cursive;
 }
 
+input, textarea {
+   margin:10px;
+   padding: 10px;
+   width: 100%;
+   font-size: 25px;
+   background: #EEE;
+   border-radius: 7px;
+   border: 2px solid rgb(255,120,0);
+   color: rgb(255,120,0);
+}
+
 .navbar-brand.customized {
    font-size: 35px;
 }
@@ -144,4 +155,9 @@ footer {
    font-size: 30px;
    color: rgb(255,120,0);
    line-height: 1;
+}
+
+.up-wrap:hover {
+   cursor: pointer;
+   color: #CCC;
 }
