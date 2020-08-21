@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     $("#scroll-to-top").click(function () {
-        $(window).scrollTop(0);
+        window.scroll({ top: 0, left: 0, behavior: 'smooth' });
     });
 
     $(".collapse").on('show.bs.collapse', function () {

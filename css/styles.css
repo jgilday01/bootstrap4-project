@@ -24,6 +24,10 @@ input, textarea {
    color: rgb(25,35,45);
 }
 
+.navbar-expand-md .navbar-nav .nav-item a {
+  padding: 8px 12px;
+}
+
 .navbar-brand.customized {
    font-size: 33px;
    -webkit-text-stroke: 1px #FFF;
@@ -70,13 +74,23 @@ footer, .navbar, .covid-box, .my-dark-bg {
    padding: 1% 0 1% 3.5%;
 }
 
+#page-top .products li { 
+   list-style-type: none;
+   width: 30%;
+   margin: 1%;
+   transform: skewx(10deg);
+   overflow: hidden; /*add*/
+}
+
 #page-top .products img { 
    display: block; 
    height: auto;
    max-height: 500px; 
-   width: 100%; 
    object-fit: cover; 
-} 
+   width: 135%; 
+   transform: skewx(-10deg);
+   margin-left: -15%;
+}
 
 #page-top .products div { 
    /*padding: 0 25% 0 5%;*/
@@ -93,14 +107,6 @@ footer, .navbar, .covid-box, .my-dark-bg {
 #page-top .products strong { 
    display: block; 
    font-weight: 900; 
-}
-
-#page-top .products li { 
-   list-style-type: none;
-   width: 30%;
-   margin: 1%;
-   -ms-transform: skewx(20deg);
-   transform: skewx(10deg);
 }
 
 
@@ -134,7 +140,7 @@ footer, .navbar, .covid-box, .my-dark-bg {
 }
 
 #accordion .card-body {
-   background-color: #DDD;
+   background-color: #EEE;
 }
 
 .menu-image {
@@ -152,9 +158,30 @@ footer, .navbar, .covid-box, .my-dark-bg {
    font-size: 30px;
    color: rgb(255,120,0);
    line-height: 1;
+   border-radius: 50%;
+   width: 33px;
+   transition: background-color linear 0.3s;
 }
 
 .up-wrap:hover {
+   background: #FFF;
    cursor: pointer;
-   color: #CCC;
+}
+
+.figure {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+.figure .centered-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 75%;
+  transform: translate(-50%, -50%);
+  padding: 15px 30px;
+  border-radius: 5px;
+  background: rgba(0,0,0,.65);
 }
