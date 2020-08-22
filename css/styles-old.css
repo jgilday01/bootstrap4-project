@@ -1,0 +1,191 @@
+html, body {
+   margin: 0px;
+   padding: 0px;
+   overflow-x: hidden;
+}
+
+body {
+   max-width: 2000px;
+   margin: 0 auto;
+   font-family: "Open Sans", sans-serif;
+   font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, .navbar-brand {
+   font-family: 'Sriracha', cursive;
+}
+
+input, textarea {
+   margin:10px auto;
+   padding: 10px;
+   width: 100%;
+   font-size: 22px;
+   background: #EEE;
+   border-radius: 7px;
+   border: 2px solid rgb(255,120,0);
+   color: rgb(25,35,45);
+}
+
+.navbar-expand-md .navbar-nav .nav-item a {
+  padding: 8px 12px;
+}
+
+.navbar-brand.customized {
+   font-size: 33px;
+   -webkit-text-stroke: 1px #FFF;
+   -webkit-font-smoothing: antialiased;
+   transition: color linear 0.5s;
+}
+
+.navbar-brand.customized:hover {
+   color: rgb(255,120,0);
+}
+
+footer, .navbar, .covid-box, .my-dark-bg {
+   color: rgb(222,222,222);
+   background-color: rgb(25,35,45);
+   border: 1px solid #AAA;
+}
+
+.main-page {
+   min-height: 750px;
+}
+
+.home-text-lrg {
+   font-size: 1.2em
+}
+
+.btn-orange, .header-orange {
+   color: #FFF;
+   background: rgb(255,120,0);
+}
+
+.input-group-text {
+   width: 40px;
+}
+
+
+#page-top { 
+   background: #000;
+   color: #FFF;
+   font-family: 'Sriracha', cursive;
+} 
+#page-top .products { 
+   display: flex; 
+   overflow: hidden; 
+   padding: 1% 0 1% 3.5%;
+}
+
+#page-top .products li { 
+   list-style-type: none;
+   width: 30%;
+   margin: 1%;
+   transform: skewx(10deg);
+   overflow: hidden; /*add*/
+}
+
+#page-top .products img { 
+   display: block; 
+   width: 135%; 
+   max-width: 750px;
+   height: auto;
+   max-height: 350px; 
+   object-fit: cover; 
+   transform: skewx(-10deg);
+   margin-left: -15%;
+}
+
+#page-top .products div { 
+   /*padding: 0 25% 0 5%;*/
+   margin-top: 1%;
+   text-align: center;
+   font-size: 39px;
+   font-size: 3.7vw;
+   text-shadow: #000 0px 0px 3px;
+   border-top: 2px solid transparent; 
+   background: rgb(255,120,0);
+   background: linear-gradient(121deg, rgba(150,100,75,1) 5%, rgba(250,125,0,1) 45%, rgba(150,100,75,1) 90%);
+} 
+
+#page-top .products strong { 
+   display: block; 
+   font-weight: 900; 
+}
+
+
+.highlight {
+   padding: 5px;
+   background: rgb(255,120,0);
+   border-radius: 7px;
+}
+
+.carousel-caption {
+   border-radius: 10px 10px 5px 5px;
+   background: rgba(33,33,33,0.55);
+}
+
+#accordion .card-header {
+   background: rgb(255,120,0);
+}
+
+#accordion button {
+   width: 100%;
+   color: #EEE;
+   line-height: 1;
+   padding: 10px 5px;
+   box-shadow: none;
+   text-decoration: none;
+}
+
+#accordion button:not(.collapsed) {
+   box-shadow: none;
+   color:rgb(25,35,45);;
+}
+
+#accordion .card-body {
+   background-color: #EEE;
+}
+
+.menu-image {
+   width: 100%;
+   max-width: 300px;
+   margin: 20px auto;
+   border-radius: 50%;
+   border: 3px solid rgb(255,120,0);
+   -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.5);
+   -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.5);
+   box-shadow: 0px 12px 7px 3px rgba(0,0,0,0.75);
+}
+
+.up-wrap {
+   font-size: 32px;
+   color: rgb(255,120,0);
+   line-height: 1;
+   border-radius: 50%;
+   width: 32px;
+   transition: background-color linear 0.3s;
+}
+
+.up-wrap:hover {
+   background: #FFF;
+   cursor: pointer;
+}
+
+.figure {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+  min-height: 100px;
+}
+
+.figure .overlay-text{
+  position: absolute;
+  bottom: 0; left: 50%;
+  width: 77%;
+  transform: translate(-50%, -50%);
+  margin: 25px 0;
+  padding: 15px 30px;
+  border-radius: 5px;
+  background: rgba(0,0,0,.65);
+}
