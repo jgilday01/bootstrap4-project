@@ -6,6 +6,7 @@ html, body {
 body {
   max-width: 2000px;
   margin: 0 auto;
+  border: 3px solid #19232d;
   font-family: "Open Sans", sans-serif;
   font-size: 16px; }
 
@@ -22,6 +23,12 @@ input, textarea {
   border: 2px solid #ff7800;
   color: #19232d; }
 
+textarea:focus, input:focus {
+  outline: none; }
+
+input:-webkit-autofill {
+  background: transparent; }
+
 .navbar-expand-md .navbar-nav .nav-item a {
   padding: 8px 12px; }
 
@@ -36,8 +43,10 @@ input, textarea {
 
 footer, .navbar, .covid-box, .my-dark-bg {
   color: #ebebeb;
-  background-color: #19232d;
-  border: 1px solid #AAA; }
+  background-color: #19232d; }
+
+.covid-box, .my-dark-bg {
+  border: 1px solid #7d7d7d; }
 
 .main-page {
   min-height: 750px; }
@@ -127,11 +136,11 @@ footer, .navbar, .covid-box, .my-dark-bg {
   box-shadow: 0px 12px 7px 3px rgba(0, 0, 0, 0.75); }
 
 .up-wrap {
-  font-size: 32px;
+  font-size: 37px;
   color: #ff7800;
   line-height: 1;
   border-radius: 50%;
-  width: 32px;
+  width: 40px;
   transition: background-color linear 0.3s; }
 
 .up-wrap:hover {
@@ -154,4 +163,12 @@ footer, .navbar, .covid-box, .my-dark-bg {
   margin: 25px 0;
   padding: 15px 30px;
   border-radius: 5px;
-  background: rgba(0, 0, 0, 0.65); }
+  background: rgba(33, 33, 33, 0.55); }
+
+.social-share .btn {
+  margin: auto 15px; }
+
+.events-bg {
+  background: #ebebeb;
+  background: linear-gradient(90deg, rgba(125, 125, 125, 0.25) 0%, rgba(250, 250, 250, 0.5) 15%, rgba(250, 250, 250, 0.5) 85%, rgba(125, 125, 125, 0.25) 100%);
+  border: 3px groove #ff7800; }

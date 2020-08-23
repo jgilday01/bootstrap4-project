@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+    $("#comments").tooltip();
+
     $("#scroll-to-top").click(function () {
         window.scroll({ top: 0, left: 0, behavior: 'smooth' });
     });

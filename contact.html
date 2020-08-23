@@ -37,7 +37,7 @@
 
     <div class="container-fluid">
         <div class="row my-3">
-            <div class="offset-1 col-10">
+            <div class="col-12 offset-sm-1 col-sm-10">
                 <div class="highlight">
                     <h2 class="text-center">Get In Touch</h2>
                 </div>
@@ -47,7 +47,7 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="offset-1 col-10">
+            <div class="col-12 offset-sm-1 col-sm-10">
                 <div class="home-text-lrg my-3">
                     <h4 class="text-center">
                         Please feel free to send us a message if you have questions or comments for us.
@@ -60,13 +60,14 @@
     <div class="container-fluid">
         <div class="row my-3">
             <div class="col-12 offset-sm-1 col-sm-10 px-0">
-                <form>
+                <form autocomplete="false">
                     <div class="row mx-auto" style="max-width: 1000px;">
                         <div class="col-12 col-md-6"><input type="text" name="first-name" value="" aria-required="true" placeholder="First Name" required></div>
                         <div class="col-12 col-md 6"><input type="text" name="last-name" value="" aria-required="true" placeholder="Last Name" required></div>
                         <div class="col-12 col-md-6"><input type="email" name="emailinput" value="" size="40" aria-required="true" placeholder="Email" required></div>
                         <div class="col-12 col-md-6"><input type="text" name="phone" value="" size="40" aria-required="true" placeholder="Phone" required></div>
-                        <div class="col-12"><textarea name="comments" cols="50" rows="3" aria-required="false" placeholder="Comments"></textarea></div>
+                        <div class="col-12"><textarea name="comments" id="comments" cols="50" rows="3" aria-required="false" placeholder="Comments" data-toggle="tooltip"
+                                data-placement="bottom" title="Comments are optional, but they are appreciated!" style="resize: none;"></textarea></div>
                         <div class="col-12"><input type="submit" class="btn-orange" value="Send"></div>
                     </div>
                 </form>
@@ -79,14 +80,17 @@
             <div class="row">
                 <div class="col-12 text-center text-md-left offset-md-1 col-md-8">
                     <div>
-                        &copy;2020 Muffins, Meatballs & Mules
+                        Muffins, Meatballs & Mules &copy;2020
                     </div>
                     <div>
                         <i class="fa fa-phone" aria-hidden="true"></i><span> 215-555-1212 </span>
                     </div>
+                    <div>
+                        <i class="fa fa-clock-o" aria-hidden="true"></i><span> M - F 8am - 8pm </span>
+                    </div>
                 </div>
-                <div class="col-12 text-center col-md-2">
-                    <div id="scroll-to-top" class="up-wrap mx-auto float-md-right my-2">
+                <div class="col-12 text-center col-md-2 my-auto">
+                    <div id="scroll-to-top" class="up-wrap mx-auto float-md-right my-3">
                         <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
                     </div>
                 </div>
